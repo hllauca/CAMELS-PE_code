@@ -191,7 +191,7 @@ source('./1_data/hydrometeorological/flow_qc.R', local = new.env())
 #==============================================================================================
 # PISCO-Arnovic (1981–2025)
 #==============================================================================================
-nc    <- nc_open('./1_data/hydrometeorological/raw/PISCO_ARNOVIC_v1.0.nc')
+nc    <- nc_open('./1_data/hydrometeorological/raw/PISCO_ARNOVIC_v1.1.nc')
 comid <- ncvar_get(nc, 'comid')
 tsim  <- as.Date(as.POSIXct(ncvar_get(nc, 'time'), origin = "1970-01-01"))
 raw   <- t(ncvar_get(nc, 'flow'))
@@ -212,7 +212,7 @@ df_qsim <- data.frame(
   coredata(qsim),
   check.names = FALSE
 )
-write.csv(df_qsim, './1_data/hydrometeorological/flow_PISCO_ARNOVIC_extracted_1981_2025.csv', row.names = FALSE)
+write.csv(df_qsim, './1_data/hydrometeorological/flow_PISCO_ARNOVIC_1981_2025.csv', row.names = FALSE)
 
 
 

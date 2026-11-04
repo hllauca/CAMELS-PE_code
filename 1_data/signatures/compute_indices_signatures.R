@@ -416,11 +416,6 @@ for (i in seq_along(gauge_ids)) {
 # Unir resultados
 indices_all <- bind_rows(indices_all)
 
-# # gauge_id con problemas
-# remove <- indices_all$gauge_id[indices_all$runoff_ratio >= 1]
-# # remove <- c("47E0E1A2", "47284198", "214700", "250103", "212605")
-# indices_signatures <- indices_all[indices_all$runoff_ratio < 1,]
-
 # Guardar resultado
 indices_signatures <- indices_all
 

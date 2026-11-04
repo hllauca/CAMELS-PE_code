@@ -65,9 +65,8 @@ directory or Python `CAMELS_PE_ROOT` environment variable).
   texture classes within each catchment (`1_data/geology/`, `1_data/soil/`), obtained with GIS
   zonal statistics; `process_soil_types.R` derives the soil attributes from these percentages.
 - **Simulated streamflow**: step 4 extracts the PISCO-ARNOVIC v1.1 series at the catchment
-  gauges. The simulated series distributed in CAMELS-PE (`flow_sim`) are read by
-  `prepare_dataset.R` from `1_data/hydrometeorological/flow_PISCO_ARNOVIC_1981_2025.csv` and are
-  available in the dataset (`03_timeseries/`).
+  gauges (`1_data/hydrometeorological/flow_PISCO_ARNOVIC_1981_2025.csv`), which are distributed
+  in CAMELS-PE as `flow_sim`.
 - The Google Earth Engine scripts refer to the catchment polygons uploaded as a private asset;
   upload `camels_pe_catchments.gpkg` as your own asset and update the asset path.
 - The input data are not included. They are available from their providers: PISCOp v3.0, PISCOt
