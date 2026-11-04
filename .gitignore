@@ -1,0 +1,31 @@
+# data and outputs are not part of the repository
+*.csv
+*.xlsx
+*.nc
+*.tif
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.zip
+*.png
+*.pdf
+*.svg
+*.emf
+output/
+2_results/CAMELS-PE/
+
+# R / Python
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

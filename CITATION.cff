@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the data description paper and the dataset."
+title: "CAMELS-PE: processing code"
+type: software
+license: GPL-3.0-only
+authors:
+  - family-names: Llauca
+    given-names: Harold
+    affiliation: "Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI)"
+  - family-names: Montesinos-Caceres
+    given-names: Cristian
+  - family-names: Gutierrez-Reynaga
+    given-names: Max
+  - family-names: Lavado-Casimiro
+    given-names: Waldo
+repository-code: "https://github.com/hllauca/CAMELS-PE_code"
+references:
+  - type: dataset
+    title: "CAMELS-PE: Catchment Attributes and Meteorology for Large-sample Studies in Peru"
+    authors:
+      - family-names: Llauca
+        given-names: Harold
+      - family-names: Montesinos-Caceres
+        given-names: Cristian
+      - family-names: Gutierrez-Reynaga
+        given-names: Max
+      - family-names: Lavado-Casimiro
+        given-names: Waldo
+    doi: 10.5281/zenodo.20058778
+    publisher:
+      name: Zenodo
+  - type: article
+    title: "CAMELS-PE: Hydrometeorological time series and catchment attributes for 136 catchments in Peru"
+    authors:
+      - family-names: Llauca
+        given-names: Harold
+      - family-names: Montesinos-Caceres
+        given-names: Cristian
+      - family-names: Gutierrez-Reynaga
+        given-names: Max
+      - family-names: Lavado-Casimiro
+        given-names: Waldo
+    journal: "Earth System Science Data Discussions"
+    doi: 10.5194/essd-2026-386
+    year: 2026
