@@ -1,5 +1,7 @@
 # CAMELS-PE: processing code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23935249.svg)](https://doi.org/10.5281/zenodo.23935249)
+
 Code used to build **CAMELS-PE v2.0** (Catchment Attributes and Meteorology for Large-sample
 Studies – Peru), a large-sample hydrological dataset with daily time series (1981–2025) and
 catchment attributes for 136 catchments in Peru.
@@ -9,6 +11,8 @@ catchment attributes for 136 catchments in Peru.
 - Data description paper: Llauca et al. (2026), *Earth System Science Data Discussions*,
   https://doi.org/10.5194/essd-2026-386
 - R package to read the dataset: https://github.com/hllauca/RCamelsPE
+- This code, archived at Zenodo: https://doi.org/10.5281/zenodo.23935249 (v2.0; all versions:
+  https://doi.org/10.5281/zenodo.23935248)
 
 The scripts are provided for transparency and reproducibility of the processing steps. They are
 research code: paths, file names and some comments (in Spanish) reflect the original project.
